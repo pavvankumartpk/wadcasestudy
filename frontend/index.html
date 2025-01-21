@@ -1,0 +1,38 @@
+
+<html>
+<head>
+    
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Feedback</h1>
+
+        <!-- Feedback Form -->
+        <form id="feedback-form">
+            <label for="mentor-name">Mentor Name:</label>
+            <input type="text" id="mentor-name" placeholder="Enter mentor's name" required />
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" placeholder="Enter subject" required />
+
+            <label for="branch">Branch:</label>
+            <input type="text" id="branch" placeholder="Enter branch" required />
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" rows="4" placeholder="Enter feedback here..." required></textarea>
+
+            <button type="button" id="submit-btn">Submit Feedback</button>
+        </form>
+
+        <!-- Feedback Summary -->
+        <div id="summary">
+            <h2>Summary</h2>
+            <p>No feedback yet!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
